@@ -27,8 +27,9 @@ width: 80%;
 margin: 60px auto;
 /* border-width: 15px;
 border-color: lightcoral;
-border-style: groove;
-background-color: rgb(red, green, blue); */
+border-style: groove; */
+background:linear-gradient(45deg,lightpink,lightskyblue);
+
 padding: 40px;
 }
 .article h2,#horse-types h2{
@@ -53,4 +54,15 @@ padding: 40px;
     display: inline;
     width: 600px;
 
+}
+.horse-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.horse-images div{
+    min-width: 300px;
+}
+.horse-images img{
+    width: 100%;
 }
